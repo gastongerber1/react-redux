@@ -35,7 +35,7 @@ const Jugadores = ({jugadores, agregarTitular, agregarSuplente}) => {
     }
    return (
     <section>
-        <h2>Jugadores</h2>
+        <h2>Players</h2>
         <div className='contenedor-jugadores'>
             <div ref={gridJugadores} onClick={()=> setScrollContainer.bind(this)}>
             {
@@ -45,7 +45,7 @@ const Jugadores = ({jugadores, agregarTitular, agregarSuplente}) => {
                 <h3>{j.nombre}</h3>
                 <div>
                     <button onClick={()=> agregarTitular(j)}>Titular</button>
-                    <button onClick={()=> agregarSuplente(j)}>Suplente</button>
+                    <button onClick={()=> agregarSuplente(j)}>Substitute</button>
                 </div>
             </article>
                 ))
