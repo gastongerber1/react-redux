@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 const Suplentes = ({suplentes, quitarSuplente}) => (
     <section>
-        <h2>Substitute</h2>
+        <h2>Substitutes</h2>
         <div className="suplentes">
             {
                 suplentes.map(j => (
