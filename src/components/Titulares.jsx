@@ -4,7 +4,7 @@ import cancha from "../cancha.svg";
 
 const Titulares = ({titulares, quitarTitular}) => (
     <section>
-        <h2>Titulares</h2>
+        <h2>Starting Players</h2>
         <div className="cancha">
             {
                 titulares.map(j => (
