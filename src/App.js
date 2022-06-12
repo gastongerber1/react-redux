@@ -8,7 +8,7 @@ import "./styles/styles.scss"
 const App = () => (
   <Provider store={store}>
     <main>
-      <h1>Football Players</h1>
+      <h1>Argentina National Football Team</h1>
       <Jugadores />
       <EquipoSeleccionado />
     </main>
